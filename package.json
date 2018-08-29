@@ -10,7 +10,7 @@
   ],
   "main": "./index.js",
   "dependencies": {
-    "canvas-prebuilt": "^1.6.5-prerelease.1"
+    "canvas-prebuilt": "^2.0.0-alpha.2"
   },
   "devDependencies": {
     "mocha": "*",
