@@ -1,31 +1,32 @@
 {
-   "name": "@talkfusion/captchagen",
-   "description": "Captcha generator",
-   "version": "1.0.0",
-   "homepage": "https://github.com/talkfusion-developers/captchagen",
-   "repository": "git://github.com/talkfusion-developers/captchagen.git",
-   "authors": [
-      "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-      "Agustin Vargas <agustin.vargas@talkfusion.com>"
-   ],
-   "main": "./index.js",
-   "dependencies": {
-      "canvas-prebuilt": "^1.6.5-prerelease.1"
-   },
-   "devDependencies": {
-      "mocha": "*",
-      "should": "*"
-   },
-   "scripts": {
-      "test": "mocha --reporter spec"
-   },
-   "engines": {
-      "node": ">=0.6"
-   },
-   "licenses": [
-      {
-         "type": "MIT",
-         "url": "https://github.com/talkfusion-developers/captchagen/raw/master/LICENSE"
-      }
-   ]
+  "name": "@talkfusion/captchagen",
+  "description": "Captcha generator",
+  "version": "1.0.0",
+  "homepage": "https://github.com/talkfusion-developers/captchagen",
+  "repository": "git://github.com/talkfusion-developers/captchagen.git",
+  "authors": [
+    "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+    "Agustin Vargas <agustin.vargas@talkfusion.com>"
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "canvas-prebuilt": "^1.6.5-prerelease.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "copy": "rm -rf ../service.api-v4/node_modules/\\@talkfusion/captchagen/lib && cp -r lib ../service.api-v4/node_modules/\\@talkfusion/captchagen/lib"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/talkfusion-developers/captchagen/raw/master/LICENSE"
+    }
+  ]
 }
