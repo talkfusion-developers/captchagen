@@ -1,7 +1,7 @@
 {
   "name": "@talkfusion/captchagen",
   "description": "Captcha generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/talkfusion-developers/captchagen",
   "repository": "git://github.com/talkfusion-developers/captchagen.git",
   "authors": [
